@@ -75,7 +75,16 @@ input {
    border-color: blueviolet;
    border-style: groove;
    cursor: pointer;
-   
-   
-
+   transition: all 0.3s;
 }
+
+.btn:hover {
+    background-color:rgb(81, 9, 148) ;
+}
+
+.btn:active {
+    top: 2px;
+  }
+
+
+
