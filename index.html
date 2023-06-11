@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ui's</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+ <div class="container">
+
+    <div class="info">
+      <div id="fields_msg"></div>
+      <div id="password_msg"></div>
+
+      <div class="username">
+        <input type="text" name="username" placeholder="Username" id="username"/>
+      </div>
+    
+      <div class="password">
+        <input type="text" name="password" placeholder="Password" id="password"/>
+      </div>
+
+      <div class="cpassword">
+        <input type="text" name="cpassword" placeholder="Confirm password" id="cpassword"/>
+      </div>
+    
+      <div class="gender">
+        <label>Gender:</label>
+        <input type="radio" name="gender" placeholder="male" id="male" > <label for="male">male</label>
+        <input type="radio" name="gender" placeholder="female" id="female"/> <label for="female">female</label>
+      </div>
+    
+      <div class="age">
+        <input type="number" name="age" placeholder="Age" id="age"/>
+      </div>
+
+      <button type="submit" class="btn" onclick={getdata()}>Submit</button>
+    
+    </div>
+
+
+ </div>
+
+
+</body>
+<script src="index.js"></script>
+
+</html>
+
